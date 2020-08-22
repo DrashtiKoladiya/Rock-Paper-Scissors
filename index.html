@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="model.css">
+    <script src="https://kit.fontawesome.com/3da1a747b2.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link rel = "icon" href = "game.png" type = "image/x-icon">
+    <title>Rock paper Scissors</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Rock paper Scissors</h1>
+            <button id="restart" class="restart-btn">Resart Game</button>
+            <div id="score" class="score">
+                <p>Player : 0</p>
+                <p>Computer: 0</p>
+            </div>
+        </header>
+        <h2>Make your Selection</h2>
+        <div class="choices">
+            <i id="rock" class="choice fas fa-hand-rock fa-9x"></i>
+            <i id="paper" class="choice fas fa-hand-paper fa-9x"></i>
+            <i id="scissors" class="choice fas fa-hand-scissors fa-9x"></i>
+        </div>
+    </div>
+
+
+    <!--model/result-->
+    <div class="model">
+        <div id="result" class="model-content">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
