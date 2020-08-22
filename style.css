@@ -111,8 +111,11 @@ body{
         flex-direction: column;
         margin-top: 1.5rem;
     }
+    .choice{
+        margin-top:2rem;
+    }
     .header h1{
-        margin-bottom:1rem;
+        margin-bottom:2rem;
     }
 }
 
